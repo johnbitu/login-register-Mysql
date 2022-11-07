@@ -12,7 +12,7 @@
         // print_r('<br>');
         // print_r('Senha: ' . $senha);
 
-        $sql = "SELECT * FROM usuarios WHERE name = '$usuario' and senha = '$senha'";
+        $sql = "SELECT * FROM usuarios WHERE usuario = '$usuario' and senha = '$senha'";
 
         $result = $conexao->query($sql);
 
@@ -29,7 +29,7 @@
         {
             $_SESSION['usuario'] = $usuario;
             $_SESSION['senha'] = $senha;
-            header('Location: sistema.php');
+            header('Location: session.php');
         }
     }
     else

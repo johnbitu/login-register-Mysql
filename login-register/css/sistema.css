@@ -27,6 +27,60 @@ header {
     font-weight: 800;
 }
 
+.tablediv {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 3px;
+    border: 2px solid black;
+}
+
+thead {
+    background-color: darkgrey;
+}
+
+#pesquisar {
+    color: white;
+    width: 300px;
+    background-color: #25242800;
+    box-shadow: 1px 2px 4px #00ff88;
+    height: 35px;
+    border-radius: 8px;
+}
+
+
+.box-search {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.buttonsrc {
+    display: flex;
+    border-radius: 8px;
+    background-color: #00ff80;
+    padding-top: 9px;
+    cursor: pointer;
+    width: 40px;
+    height: 38px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    
+}
+
+.num {
+    text-align: right;
+}
+
+
 .nav-links {
     list-style: none;
 }
