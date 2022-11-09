@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 </head>
 <body>
     <div class="main-login">
@@ -34,4 +35,6 @@
     </div>
 
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="js\typewriterlogin.js"></script>
 </html>
